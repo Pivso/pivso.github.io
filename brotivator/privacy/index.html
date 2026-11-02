@@ -31,7 +31,8 @@ through Google Play. This page says exactly what the app keeps and where anythin
 
 <h2>What stays on your phone</h2>
 <ul>
-  <li><strong>Your settings:</strong> how many notifications a day, and the hours they may arrive in.</li>
+  <li><strong>Your settings:</strong> how many notifications a day, the hours they may arrive in, whether
+    weekends are off, and a day you paused.</li>
   <li><strong>Today's shown messages,</strong> so the same one isn't sent twice in a day. Cleared every midnight.</li>
 </ul>
 <p>None of this is sent anywhere by Bro-tivator. Uninstalling the app deletes it.</p>
@@ -53,10 +54,9 @@ connection. That is handled by Google under the
 <h2>Permissions</h2>
 <ul>
   <li><strong>Notifications:</strong> to show the messages you scheduled. Nothing else.</li>
-  <li><strong>Run at startup, wake lock, foreground service, network state:</strong> used by Android's
-    WorkManager to deliver scheduled notifications on time, including after the phone restarts.</li>
-  <li><strong>Google Play billing and internet:</strong> used only by Google Play's billing library for the tips
-    above. Bro-tivator itself does not contact anything on the internet.</li>
+  <li><strong>Run at startup:</strong> to set the notification schedule up again after the phone restarts.</li>
+  <li><strong>Google Play billing, internet and network state:</strong> used only by Google Play's billing
+    library for the tips above. Bro-tivator itself does not contact anything on the internet.</li>
 </ul>
 <p>Bro-tivator does not ask for your location, contacts, camera, microphone, photos or files.</p>
 
